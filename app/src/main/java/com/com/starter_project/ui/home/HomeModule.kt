@@ -12,6 +12,6 @@ class HomeModule {
     @ViewModelInjection
     fun provideHomeVM(
         fragment: HomeFragment,
-        viewModelProvider: InjectionViewModelProvider<HomeVM>
-    ) = viewModelProvider.get(fragment, HomeVM::class)
+        viewModelProvider: InjectionViewModelProvider<HomeViewModel>
+    ) = viewModelProvider.get(fragment, HomeViewModel::class)
 }

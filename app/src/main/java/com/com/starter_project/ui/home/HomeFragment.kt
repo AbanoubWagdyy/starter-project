@@ -19,7 +19,7 @@ class HomeFragment : BaseFragment() {
 
     @Inject
     @ViewModelInjection
-    lateinit var viewModel: ViewModelInjectionField<HomeVM>
+    lateinit var viewModel: ViewModelInjectionField<HomeViewModel>
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
